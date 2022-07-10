@@ -1,6 +1,6 @@
 // Cycle Detection in UnDirected Graph:
 
-// USING DFS: Doing dfs if there is a node which will trevese privisely so that it will have have cycle . done using parent if node;
+// USING DFS: Doing dfs if there is a node which will trevese privisely so that it will have have cycle . done using value of parent node.
 	
     bool isDfsCycle(int src,int parent,vector<int> &vis,vector<int> adj[]){
         vis[src]=1;
