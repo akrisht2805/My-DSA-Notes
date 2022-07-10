@@ -1,6 +1,6 @@
 //****************************DFS Treversal**************************************//
 
-void dfs(int src,vector<int> &vis,vector<int> adjList[],,vector<int> &ans){
+void dfs(int src,vector<int> &vis,vector<int> adjList[],vector<int> &ans){
     ans.push_back(src);
     vis[src]=true;
     for(auto it: adjList[src]){

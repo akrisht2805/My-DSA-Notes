@@ -1,6 +1,6 @@
 //****************************BFS Treversal**************************************//
 
-void bfs(int src,vector<int> &vis,vector<int> adjList[],,vector<int> &ans){
+void bfs(int src,vector<int> &vis,vector<int> adjList[],vector<int> &ans){
     
     queue<int> q;
     q.push(src);
