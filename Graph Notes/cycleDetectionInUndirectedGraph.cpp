@@ -15,7 +15,7 @@
             }
         }
         return false;
-    	}
+    }
     
     bool isCycle(int V, vector<int> adj[]) {
         vector<int> vis(V,0);
@@ -31,7 +31,7 @@
 
 
 // USING BFS:
-	bool isBfsCycle(int node,vector<int> &vis,vector<int> adj[]){
+    bool isBfsCycle(int node,vector<int> &vis,vector<int> adj[]){
         queue<pair<int,int>> q;
         q.push({node,-1});
         
